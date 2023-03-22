@@ -15,51 +15,35 @@
       </div>
     </nav>
       <div class="login">
-      <h1 class="text-center">Sign in</h1>
+      <h1 class="text-center">Sign up</h1>
 
 
       <form method="POST" action="">
         {% csrf_token %}
-         <div class="form_set was-validated">
+          <div class = "newspacer">
           <label class="form-label" for="user">Username</label>
-          <br>
-          <div class="tol">
           {{form.username}}
-        </div>
-          <div class="invalid-feedback">
-            Please enter your username</div>
-        <div class="form_set was-validated">
-      <label class="form-label" for="email">Email address</label>
-      <br>
-      <div class="tol">
-      {{form.email}}
-    </div>
-      <div class="invalid-feedback">
-    Please enter your email address</div>
-    </div>
+          {{form.username.errors}}
+
+          <div class = "newspacer">
+          <label class="form-label" for="email">Email address</label>
+          {{form.email}}
+      
+      
 
 <!-- eleat in ke toy do ta class joda neveshte shodan baray ine ke zir ham bashan -->
-
-    <div class="form_set was-validated">
+      <div class = "newspacer">
       <label class="form-label" for="password" >Password</label>
-      <br>
-      <div class="tol">
       </div>
       <i class="far fa-eye" id="togglePassword"></i>
       {{form.password1}}
-      <div class="invalid-feedback">
-        Please enter your a password</div>
-    </div>
-
-    <div class="form_set was-validated">
       
+
+      <div class = "newspacer">
       <label class="form-label" for="password" >Confirm Password</label>
-      <br>
-      <div class="tol">
-      {{form.password2}}
-    </div>
-    </div>
       <i class="far fa-eye" id="togglePassword"></i>
+      {{form.password2}}
+
 
       
 
@@ -69,7 +53,7 @@
     
   </form>
     </div>
-
+    
 
 
 
