@@ -17,8 +17,8 @@ body{
 
 
 .login{
-    width: 500px;
-    height:min-content ;
+    width: 360px;
+    height:65vh ;
     padding: 20px;
     border-radius: 12px;
     background-color : rgba(0, 0, 0, 0.541)  ;
@@ -33,28 +33,9 @@ body{
 
 .login form {
     font-size: 20px;
-    
 
 }
 
-.login form .form-set{
-    margin-bottom: 12px;
-}
-
-.form_set label{
-    margin-bottom: 15px;
-    padding-top: 10px;
-}
-
-.form_set input[type="button"]{
-    font-size: 20px;
-    margin-top: 15px;
-
-}
-#new{
-    padding: 10px;
-    padding-left: 0;
-}
 
 nav{
     position:absolute;
@@ -75,15 +56,15 @@ nav{
     padding-top: 20px;
   }
 
-#id{
-    margin-left: -30px; 
-    cursor: pointer;
-}
-
 #new{
     position: relative;
+    top: 250px;
     
+
     padding: 10px;
     margin-top: 15px;
 }
 
+.newspacer{
+    padding-top: 20px;
+}
