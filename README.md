@@ -3,13 +3,13 @@ Lesson project for making a site for sign up and login
 
 				make projecet and app and make front
 
-1-& django-admin startproject [projectname] #for make project and file of that
-2-& manage.py runserver [port:optional] #baray run kardan server va ereftan link
+1-& django-admin startproject [projectname] #for make project and file of that.
+2-& manage.py runserver [port:optional] #baray run kardan server va ereftan link.
 3-ba dastor manage.py startapp [appname] ye app misazim va be setting ham add mikonim.
 4-make folder [templates] and import html file to that.
 5-make static file and within that make 3 folder for javascript and css and img files.
-6-next going to setting and find [TEMPLATES] section 
-7- next find 'DIRS' : [BASE_DIR , 'templates']
+6-next going to setting and find [TEMPLATES] section .
+7- next find 'DIRS' : [BASE_DIR , 'templates'].
 8- next copy this on the setting but end of that
 	BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
